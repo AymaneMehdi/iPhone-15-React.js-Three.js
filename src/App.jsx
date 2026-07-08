@@ -1,7 +1,10 @@
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <main></main>
+    <main className="bg-black">
+      <Navbar />
+    </main>
   );
 };
 
